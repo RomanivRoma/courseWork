@@ -3,32 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/src/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/table.css">
     <title>About us</title>
 </head>
 <body>
-    <div class="header">
-        <a href="./index.html" ><img class="logo" src="./src/logo.png" alt=""></a>
-      
-        <div class="header-right">
-          <a href="./index.html">Главная</a>
-          <a href="./contact.html">Написать нам</a>
-          <a class="active" href="./about.html">О программе</a>
-          <div class="dropdown show">
-            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              База Данных
-            </a>
-          
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <a class="dropdown-item" href="#">Создать план</a>
-              <a class="dropdown-item" href="#">Редактировать</a>
-              <a class="dropdown-item" href="#">Поиск по БД</a>
-            </div>
-          </div>
+  <div class="header">
+    <a href="./index.html" ><img class="logo" src="./src/logo.png" alt=""></a>
+    <div class="header-right">
+      <a href="./index.html">Главная</a>
+      <a href="./contact.php">Написать нам</a>
+      <a href="./about.php" class="active">О программе</a>
+      <div class="dropdown show">
+        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          База Данных
+        </a>
+                    
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <a class="dropdown-item" href="/add/add.php">Создать план</a>
+          <a class="dropdown-item" href="/edit_delete/edit_delete.php">Редактировать</a>
+          <a class="dropdown-item" href="/poisk/vibor.php">Поиск по БД</a>
         </div>
-    
+      </div>
     </div>
+  </div>
   <div class="back3">
     <div class="bubble b1"></div>
         <div class="bubble b2"></div>
